@@ -9,7 +9,7 @@ Fernet guarantees that a message encrypted using it cannot be manipulated or rea
 ### FEATURES
 | PASSWORD         |       YES       |       NO      |
 |:-----------------|:---------------:| -------------:|
-| letter_min_MAJ   |        V        |               |
+| letters_min_MAJ  |        V        |               |
 | digits           |        V        |               |
 | special_char     |        V        |               |
 | length_limit     |                 |       X       |
