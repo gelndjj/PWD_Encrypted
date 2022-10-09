@@ -62,7 +62,7 @@ lbl_field_pass2.place(x=300, y=50)
 lbl_pwd = Label(tab0,text='Your password :')
 lbl_pwd.place(x=180,y=50)
 
-lbl_field_pass = Label(tab0, text='Lenght :').place(x=40,y=50)
+lbl_field_pass = Label(tab0, text='Length :').place(x=40,y=50)
 
 lbl_encoded = Entry(tab0,width=15, borderwidth=3, fg='grey')
 lbl_encoded.place(x=380,y=130)
@@ -71,7 +71,7 @@ lbl_encoded.insert(0,'')
 lbl_pwd_encoded = Label(tab0,text='Password encoded :')
 lbl_pwd_encoded.place(x=240, y=130)
 
-#CREATE A COMBOBOX (PASSWORD LENGHT)
+#CREATE A COMBOBOX (PASSWORD LENGTH)
 combo_list = [
             '1',
             '2',
