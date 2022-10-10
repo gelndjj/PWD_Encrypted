@@ -10,8 +10,8 @@
 ##############################################################################
 ##############################################################################
 
-from cgitb import text
-from curses.textpad import Textbox
+#from cgitb import text
+#from curses.textpad import Textbox
 from itertools import tee
 from tkinter import ttk, filedialog, messagebox
 from tkinter import *
