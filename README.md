@@ -41,3 +41,12 @@ Fernet guarantees that a message encrypted using it cannot be manipulated or rea
 * Click on **Decode** and the password will be shown in the "Password Decoded" field
 
 ### REQUIREMENTS
+Librairies and modules require to run pwd.encrypted.py
+
+```
+pip3 install tk
+pip3 install itertools
+pip3 install cryptography
+pip3 install fernet
+
+```
