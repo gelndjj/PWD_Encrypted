@@ -1,4 +1,4 @@
-# PWD_Encrypted
+## PWD_Encrypted
 _Password Generator with Fernet Encryption_
 
 ### SUMMARY
@@ -20,7 +20,24 @@ Fernet guarantees that a message encrypted using it cannot be manipulated or rea
 ![Screenshot](https://github.com/gelndjj/PWD_Encrypted/blob/main/img/pwd_gen.png)
 ![Screenshot](https://github.com/gelndjj/PWD_Encrypted/blob/main/img/pwd_dec.png)
 
-### HOW IT WORKS
-* 
-*
-*
+### HOW IT WORKS - GENERATE AND ENCODE
+* First off, create a token. It'll be found inside your user path and be named **pass.key**.
+  1. ***note: The token MUST be present right before the password is encoded***
+* Generate the password you want with the options included by clicking on **Generate**.
+
+  1. Check off **Digits** and pick a number to include it in the password.
+  2. Check off **Specials** and pick a number to include it in the password.
+  3. If none of them is checked, the password will be only with letters** min/MAJ** (checked by default).
+  4. ***You can erase the number inside the drop down menu and put your own.***
+  
+* Once created the token and generated a password, you can **Encode** it and save it wherever you want to.
+   1. ***note: The token and the 'encoded password' will be asked in order to decode the password.***
+* The **Clear** button clears "Your password field" and "Password encoded" field.
+* The **Reset** button sets up the drop down menus to '0'
+
+### HOW IT WORKS - DECODE
+* Having the token and the "password encoded file" at hand, go to the **Decode** tab
+* Load both files using the buttons, the "encoded password" will be automatically paste in the field.
+* Click on **Decode** and the password will be shown in the "Password Decoded" field
+
+### REQUIREMENTS
