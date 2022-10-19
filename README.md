@@ -1,5 +1,5 @@
 ## PWD_Encrypted
-_Password Generator with Fernet Encryption_
+_A password generator that allows you to create fancy passwords and encrypt them using '**Fernet Encryption**'_
 ```
        ##############################################################################
        ##############################################################################
@@ -15,7 +15,7 @@ _Password Generator with Fernet Encryption_
 
 ### SUMMARY
 PWD_Encrypted is a very basic password generator written in python including Fernet.
-Fernet is an implementation of symmetric (also known as “secret key”) authenticated cryptography.
+Fernet is an implementation of symmetric (also known as **“secret key”**) authenticated cryptography.
 Fernet guarantees that a message encrypted using it cannot be manipulated or read without the key.
 
 ### FEATURES
